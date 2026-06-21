@@ -24,9 +24,6 @@ The methodologies showcased in this repository have direct, high-value applicati
 * **Infrastructure Monitoring:** Automatically analyzes drone or robotic footage of pipelines, bridges, or wind turbines to spot structural cracks, anomalies, or corrosion without manual screening.
 * **Medical Diagnostic Assistance:** Flags rare anomalous patterns in X-rays, MRIs, or CT scans. It acts as a zero-shot triage tool, alerting radiologists to unusual tissue structures even when training data for that specific rare condition doesn't exist.
 
-```
-
-
 
 ## 🛠️ Technical Implementation & Workflow
 
@@ -142,9 +139,9 @@ image_score = torch.max(min_patch_distances).item()
 ## 🚀 How to Run
 
 1. **Clone the repository:**
-   ```bash
-   git clone <your-repository-url>
-   cd <your-repository-name>
+```bash
+git clone <your-repository-url>
+cd <your-repository-name>
 
 ```
 
