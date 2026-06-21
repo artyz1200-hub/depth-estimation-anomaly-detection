@@ -55,10 +55,8 @@ abs_rel = np.mean(np.abs(aligned_pred_valid - gt_valid) / gt_valid)
 
 #### Visual Output Analysis
 
-```
-[INSERT PLACEHOLDER: image_0b753e.jpg / (фото 1)]
+![alt text](../photos/image.png)
 
-```
 
 * **Observation:** The visualization highlights a stark contrast between predictions and raw physical data. While the hardware sensor map contains heavy visual "holes" (rendered as empty black areas) due to sensor boundaries or reflections, the foundation model constructs a continuous, structurally smooth, dense depth representation across the entire grid layout.
 
@@ -108,10 +106,7 @@ image_score = torch.max(min_patch_distances).item()
 
 #### Defect Map Visualization
 
-```
-[INSERT PLACEHOLDER: image_0b7516.jpg / (фото 2)]
-
-```
+![alt text](../photos/image-1.png)
 
 ---
 
@@ -131,7 +126,3 @@ image_score = torch.max(min_patch_distances).item()
 * Scikit-Learn (Metrics computation)
 * OpenCV & Matplotlib (Heatmap overlay processing)
 * Kagglehub
-
-```
-
-```
