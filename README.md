@@ -1,6 +1,3 @@
-Here is a professionally structured Markdown (`README.md`) file tailored for your GitHub repository. It includes your exact technical logs, evaluation results, code blocks, and clear indicators for where to display your images.
-
----
 
 
 # Visual Context Foundation Models: Monocular Depth Estimation & Zero-Shot Anomaly Detection
