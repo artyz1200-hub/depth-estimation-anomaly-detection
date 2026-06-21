@@ -10,8 +10,6 @@ This repository explores the practical deployment of state-of-the-art vision fou
 
 ## 🌍 Real-World Applications
 
-The methodologies showcased in this repository have direct, high-value applications across several cutting-edge industries:
-
 ### 1. Monocular Depth Estimation (`Depth-Anything-V2`)
 
 * **Autonomous Driving & Robotics:** Serves as a fast, software-based alternative or redundant safety layer for expensive LiDAR sensors, assisting in real-time collision avoidance and obstacle distance estimation.
