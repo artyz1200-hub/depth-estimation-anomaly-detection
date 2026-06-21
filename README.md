@@ -8,6 +8,26 @@ This repository explores the practical deployment of state-of-the-art vision fou
 
 ---
 
+## 🌍 Real-World Applications
+
+The methodologies showcased in this repository have direct, high-value applications across several cutting-edge industries:
+
+### 1. Monocular Depth Estimation (`Depth-Anything-V2`)
+
+* **Autonomous Driving & Robotics:** Serves as a fast, software-based alternative or redundant safety layer for expensive LiDAR sensors, assisting in real-time collision avoidance and obstacle distance estimation.
+* **Augmented Reality (AR) & VR:** Enables instant 3D room mesh generation and depth occlusions on devices with standard RGB cameras, allowing virtual objects to blend realistically behind physical barriers.
+* **Computational Photography:** Powers advanced smartphone portrait modes (bokeh/blur effects) and automated 3D image mapping by generating continuous, edge-accurate depth maps instantly.
+
+### 2. Unsupervised Anomaly Detection (`DINOv2`)
+
+* **Industrial Quality Control:** Automates manufacturing lines (textiles, consumer goods, semiconductors) to catch rare surface defects. Because the system requires *zero defect labels* to initialize, factories can deploy it immediately using only images of "perfect" products.
+* **Infrastructure Monitoring:** Automatically analyzes drone or robotic footage of pipelines, bridges, or wind turbines to spot structural cracks, anomalies, or corrosion without manual screening.
+* **Medical Diagnostic Assistance:** Flags rare anomalous patterns in X-rays, MRIs, or CT scans. It acts as a zero-shot triage tool, alerting radiologists to unusual tissue structures even when training data for that specific rare condition doesn't exist.
+
+```
+
+
+
 ## 🛠️ Technical Implementation & Workflow
 
 ### 1. Monocular Depth Estimation (NYU-Depth-v2)
@@ -118,11 +138,35 @@ image_score = torch.max(min_patch_distances).item()
 
 ---
 
-## 💻 Requirements & Dependencies
 
-* Python 3.10+
-* PyTorch (`cuda` runtime recommended)
-* HuggingFace Transformers & Datasets
-* Scikit-Learn (Metrics computation)
-* OpenCV & Matplotlib (Heatmap overlay processing)
-* Kagglehub
+## 🚀 How to Run
+
+1. **Clone the repository:**
+   ```bash
+   git clone <your-repository-url>
+   cd <your-repository-name>
+
+```
+
+2. **Install the required dependencies:**
+```bash
+pip install -r requirements.txt
+
+```
+
+
+3. **Launch the environment:**
+Make sure you have Jupyter installed, then run:
+```bash
+jupyter notebook
+
+```
+
+
+Open the notebook file and execute the cells sequentially. (Note: Running on a **CUDA-enabled GPU** is highly recommended for faster feature extraction).
+
+---
+
+
+
+
