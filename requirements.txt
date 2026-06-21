@@ -1,0 +1,10 @@
+torch
+transformers
+datasets
+numpy
+matplotlib
+scikit-learn
+opencv-python
+pillow
+tqdm
+kagglehub
